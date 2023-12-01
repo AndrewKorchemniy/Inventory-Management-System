@@ -1,5 +1,9 @@
 # Inventory-Management-System
-The future repository for a Dev-Ops final project.
 
-Start Date: 2023-11-20
-Due-By Date: 2023-12-07
+A place to organize a Dev-Ops final project, an inventory management system for a manufacturing environment.
+The customer requires a system that can track inventory stock, log item usage, and view access history.
+
+### Documentation
+
+- [User Stories](docs/cloud-schema.md)
+- [Azure Cloud Schema](docs/cloud-schema.md)
