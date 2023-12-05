@@ -7,7 +7,7 @@
 
 As an inventory manager, I shall use an access key and inventory id to authorize myself with the application and securly connect.
 
-As an inventory manager, I shall view all available usernames upon accessing the inventory to chose the appropriate username to track who accesses the inventory.
+As an inventory manager, I shall view all available usernames upon accessing the inventory to chose the appropriate username and track who accesses the inventory.
 
 As an inventory manager, I shall create usernames to track who accesses the inventory.
 
@@ -22,6 +22,8 @@ As an inventory manager, I shall delete items in the inventory to remove unused 
 As an inventory manager, I shall view the audit logs of the inventory to inspect access.
 
 As an inventory manager, I shall view all manufacturing formulation records to track item usage.
+
+As an inventory manager, I shall add manufacturing formulation records to track item usage.
 
 As an inventory manager, I shall download all manufacturing formulation records to export them elsewhere. 
 
