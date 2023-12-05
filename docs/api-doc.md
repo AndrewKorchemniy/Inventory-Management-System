@@ -6,7 +6,7 @@
 
 ## Overview
 
-| Inventory  | Item        | Record      | Auth          |
+| Inventory  | Item        | Record      | Username      |
 | -          | -           | -           | -             |
 | get logs   | post item   | get records | get usernames | 
 | get items  | update item | post record | post username | 
