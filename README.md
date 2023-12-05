@@ -7,3 +7,4 @@ The customer requires a system that can track inventory stock, log item usage, a
 
 - [User Stories](docs/user-stories.md)
 - [Azure Cloud Schema](docs/cloud-schema.md)
+- [API Doc](docs/api-doc.md)

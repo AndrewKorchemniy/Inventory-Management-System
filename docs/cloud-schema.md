@@ -1,32 +1,22 @@
+# Inventory Management System
 ```mermaid
----
-title: Inventory Management System
----
 graph LR;
     frontend[Static Web App] --- apim{APIM}
-    apim --- api_inventory & api_item & api_formulate & api_auth
+    apim --- api_inventory & api_item & api_record & api_auth
     subgraph functions[Azure Functions]
         api_inventory[Inventory Endpoint]
         api_item[Item Endpoint]
-        api_formulate[Formulate Endpoint]
+        api_record[Record Endpoint]
         api_auth[Auth Endpoint]
     end
-    api_inventory & api_item & api_formulate & api_auth --- cosmosdb[(Cosmos DB)]
+    api_inventory & api_item & api_record & api_auth --- cosmosdb[(Cosmos DB)]
+    functions ---  logs>Log Analytics]
 ```
 
+See the [API documentation](api-doc.md) for more detailed information.
 
-### Inventory Endpoint
- - get inventory logs
- - get inventory records
- - get inventory items
-### Item Endpoint
- - post item
- - update item
- - delete item
-### Formulate Endpoint
- - post record of item usage
-### Auth Endpoint
- - get users
-
-Extras/TODO:  Audit log, storage queue
-
+| Inventory  | Item        | Record      | Auth          |
+| -          | -           | -           | -             |
+| get logs   | post item   | get records | get usernames | 
+| get items  | update item | post record | post username | 
+|            | delete item |             |               | 
