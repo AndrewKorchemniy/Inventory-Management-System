@@ -1,10 +1,11 @@
+# User Stories
+
 ### Users
  - Inventory Manager
- - 
 
-### User Stories
+### Stories
 
-As an inventory manager, I shall use an access key to authorize myself with the application to securly connect.
+As an inventory manager, I shall use an access key and inventory id to authorize myself with the application and securly connect.
 
 As an inventory manager, I shall view all available usernames upon accessing the inventory to chose the appropriate username to track who accesses the inventory.
 
