@@ -49,7 +49,7 @@ resource "azurerm_function_app" "primary" {
   app_service_plan_id        = azurerm_app_service_plan.primary.id
   storage_account_name       = azurerm_storage_account.primary.name
   storage_account_access_key = azurerm_storage_account.primary.primary_access_key
-  version                    = "~3"
+  version                    = "~4"
 
   site_config {
     always_on = true
