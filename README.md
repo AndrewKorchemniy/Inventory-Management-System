@@ -14,3 +14,9 @@ The customer requires a system that can track inventory stock, log item usage, a
 
 - [Deployed Web App](https://lemon-ocean-0296d121e.4.azurestaticapps.net)
 - [IMS-UI Repository](https://github.com/AndrewKorchemniy/IMS-UI)
+- [IMS-API Repository](https://github.com/AndrewKorchemniy/IMS-API)
+
+#### Demo User
+
+- ID: `Demo`
+- Key: `172560df72ea4210b02a6552dbef2197`
