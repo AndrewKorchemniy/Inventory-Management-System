@@ -8,6 +8,8 @@ erDiagram
     }
     INVENTORY ||--o{ ITEM : contains
     INVENTORY ||--o{ USER : contains
+    INVENTORY ||--o{ RECORD : contains
+    INVENTORY ||--o{ ITEM_USAGE : contains
     INVENTORY {
         string name
         string companyName
@@ -16,6 +18,7 @@ erDiagram
     USER {
         string name
         string inventoryName
+        string companyName
     }
     RECORD ||--|{ ITEM_USAGE : contains
     RECORD {
@@ -23,16 +26,20 @@ erDiagram
         string batchName
         datetime dateManufactured
         string inventoryName
+        string companyName
     }
     ITEM_USAGE }o--|| ITEM : contains
     ITEM_USAGE {
         string batchName
         string itemName
         float quantityUsed
+        string inventoryName
+        string companyName
     }
     ITEM {
         string name
         string inventoryName
+        string companyName
         string manufactureName
         float quantity
         float quantityRemaining
