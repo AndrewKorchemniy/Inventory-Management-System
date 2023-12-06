@@ -43,7 +43,7 @@ resource "azurerm_app_service_plan" "primary" {
 
 # Create Azure Function App
 resource "azurerm_function_app" "primary" {
-  name                       = "inventory-management-system-function-app"
+  name                       = "ims-api"
   resource_group_name        = azurerm_resource_group.primary.name
   location                   = azurerm_resource_group.primary.location
   app_service_plan_id        = azurerm_app_service_plan.primary.id
