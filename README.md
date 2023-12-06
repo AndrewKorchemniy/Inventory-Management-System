@@ -9,3 +9,8 @@ The customer requires a system that can track inventory stock, log item usage, a
 - [User Stories](docs/user-stories.md)
 - [Azure Cloud Schema](docs/cloud-schema.md)
 - [Database Schema](docs/database-schema.md)
+
+### Links
+
+- [Deployed Web App](https://lemon-ocean-0296d121e.4.azurestaticapps.net)
+- [IMS-UI Repository](https://github.com/AndrewKorchemniy/IMS-UI)
