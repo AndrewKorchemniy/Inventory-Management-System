@@ -8,7 +8,7 @@
 
 - [x] As an inventory manager, I shall use an access key and inventory id to authorize myself with the application.
 
-- [x] As an inventory manager, I shall view all available usernames upon accessing the inventory to chose the appropriate username and track who accesses the inventory.
+- [x] As an inventory manager, I shall view all available usernames upon accessing the inventory to choose the appropriate username and track who accesses the inventory.
 
 - [x] As an inventory manager, I shall create usernames to track who accesses the inventory.
 
